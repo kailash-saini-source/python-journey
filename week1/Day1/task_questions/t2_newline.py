@@ -1,0 +1,1 @@
+print("Learn Daily\nPractice Daily")

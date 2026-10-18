@@ -1,0 +1,6 @@
+#Print a 5-line shape using * characters (a box, a triangle or a house)
+print("*****")
+print("*   *")
+print("*   *")
+print("*   *")
+print("*****")
