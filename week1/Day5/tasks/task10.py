@@ -1,0 +1,18 @@
+#Ask the name and quantity of 3 items with their prices. Print a neat aligned receipt
+#with a total.
+item1_name = input("Enter the name of item 1:")
+item1_quantity = int(input("Enter the quantity of item 1:"))
+item1_price = float(input("Enter the price of item 1:"))
+item2_name = input("Enter the name of item 2:")
+item2_quantity = int(input("Enter the quantity of item 2:"))
+item2_price = float(input("Enter the price of item 2:"))
+item3_name = input("Enter the name of item 3:")
+item3_quantity = int(input("Enter the quantity of item 3:"))
+item3_price = float(input("Enter the price of item 3:"))
+total = (item1_quantity * item1_price) + (item2_quantity * item2_price) + (item3_quantity * item3_price)
+print("=" * 40)
+print(f"{item1_name:<20} {item1_quantity:>5} {item1_price:>10.2f}")
+print(f"{item2_name:<20} {item2_quantity:>5} {item2_price:>10.2f}")
+print(f"{item3_name:<20} {item3_quantity:>5} {item3_price:>10.2f}")
+print("=" * 40)
+print(f"{'Total':<20} {total:>10.2f}")
